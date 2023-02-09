@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2980B9; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather{
+    /*width: 300px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.info-1 {
+    width: 100%;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.info-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.form-control{
+    width: 350px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px ;
+    border: none ;
+}
+.form-control:focus, .btn:focus{
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0) inset, 0 0 0px rgba(0, 0, 0, 0);
+    outline: 0 none;
+}
+
+.btn{
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px ;
+    border:none;
+}
+
+.naslov{
+    font-size: 24px;
+}
+.wrap{
+    margin-top: 6px;
+}
+.city-name{
+margin-right: 24px;
+}
